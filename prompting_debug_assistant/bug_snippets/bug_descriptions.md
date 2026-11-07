@@ -24,7 +24,7 @@ This folder contains five intentionally buggy programs for debugging practice. E
 ### 2. `bug2.py` — Logical error
 - **Scenario:** The function receives a list containing only negative numbers: `[-8, -3, -12, -5]`.
 - **Expected:** It returns `-3`, the largest value.
-- **Observed:** It returns an incorrect result (`0`).
+- **Observed:** It returns an incorrect result (`-12`, the smallest value).
 
 ### 3. `bug3.py` — Runtime exception
 - **Scenario:** The program searches for username `samir`, which is not present in the sample user list.
